@@ -1,0 +1,25 @@
+Introduction
+________________________________________________________________________________
+Le programme SD.py a été développé dans le cadre d'un projet sur la
+dynamique des macromolécules. Il permet de réaliser une minimisation de
+l'énergie sur une molécule d'eau en utilisant un algorithme de type Steepest
+Descent. Il est également fonctionnel pour deux molécules d'eau.
+Il a été développé en utilisant Python3.
+
+
+Installation
+________________________________________________________________________________
+L'installation de SD.py ne nécessite aucune autre installation préalable
+que Python3 et à minima ses bibliothèques "sys", "math", "matplotlib" et "copy".
+
+
+Utilisation
+________________________________________________________________________________
+Afin d'utiliser SD.py il vous faudra utiliser un terminale et vous rendre
+dans le dossier source où SD.py se situe et y avoir placer le fichier de
+type pdb contenant les informations que vous souhaitez minimiser au format .pdb.
+Il vous faudra ensuite rentrer la commande "python SD.py [fichier_d_entree]
+[fichier_de_sortie]" avec [fichier_d_entree] correspondant au nom du fichier pdb
+comprenant les données de la molécule à minimiser et [fichier_de_sortie]
+correspondant au nom de fichier avec l'extension .pdb où vous souhaitez
+sauvegarder vos données minimisées.
